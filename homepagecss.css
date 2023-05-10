@@ -1,0 +1,109 @@
+/* Importing Google Fonts and setting general styles */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+body {
+  font-family: 'DM Serif Display', serif;
+  margin: 0;
+  padding: 0;
+  background-color: #2BD688;
+}
+
+/* Styling the header and navigation */
+h1, h2 {
+  text-align: center;
+  font-family: 'Impact', sans-serif;
+  color: #7E59DA;
+  text-shadow: 2px 2px 0 #000;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #00ffff;
+  font-family: 'DM Serif Display', serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+nav a:hover {
+  color: #6064F9;
+}
+
+/* Styling the footer */
+footer {
+  text-align: center;
+  background: linear-gradient(to right, #004364, #78D2FF);
+  padding: 10px;
+  margin-top: 50px;
+  font-family: 'DM Serif Display', serif;
+  color: #6064F9;
+  text-shadow: 1px 1px 0 #000;
+}
+
+/* Styling the table */
+table {
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+  background-color: #A2A3EE;
+}
+
+
+/* Styling the main content */
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: square;
+  margin: 0 0 20px 20px;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+  color: #00ffff;
+  font-family: 'DM Serif Display', serif;
+  font-size: 20px;
+  text-shadow: 1px 1px 0 #000;
+}
+
+p {
+  margin: 20px 0;
+  color: #E4F6FF;
+  font-family: 'DM Serif Display', serif;
+  font-size: 22px;
+  text-shadow: 1px 1px 0 #000;
+}
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 768px) {
+  main {
+    width: 90%;
+  }
+
+  nav li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  footer {
+    margin-top: 20px;
+  }
+}
